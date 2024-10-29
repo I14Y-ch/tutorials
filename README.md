@@ -1,29 +1,16 @@
-# JupyterLite Demo
+# I14Y API Documentation
+## Overview
+This repository contains documentation and tutorials for the available electronic interfaces (APIs) offered by the I14Y interoperability platform. 
+The I14Y platform provides public APIs for retrieving and publishing metadata, which enables seamless automation of metadata management and facilitates larger imports and exports.
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+Technical documentation is available in the [Swagger I14Y (testing environment - Abnahme)](https://iop-partner-a.app.cfap02.atlantica.admin.ch/api/index.html) and [Swagger I14Y (production environement)](https://iop-partner.app.cfap02.atlantica.admin.ch/api/index.html), where all currently available endpoints are listed. The offering will be gradually expanded.
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+In this repository, you will find access to a step-by-step guide Jupyter notebook that documents how to utilize the APIs with Python and the [Requests library](https://requests.readthedocs.io/en/latest/user/quickstart/). It demonstrates how to interact with the I14Y testing environment (Abnahme), allowing you to test all functionalities without affecting the production environment. The notebook also documents the process of switching from one environment to another. If you do not have access to the testing environment, please contact the [I14Y team](mailto:i14y@bfs.admin.ch).
 
-## ✨ Try it in your browser ✨
+If the currently available interfaces do not meet your needs, please do not hesitate to contact the [I14Y team](mailto:i14y@bfs.admin.ch). Numerous other endpoints are already active internally; however, they are not yet publicly accessible as they may be subject to changes.
 
-➡️ **https://jupyterlite.github.io/demo**
-
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
-
-## Requirements
-
-JupyterLite is being tested against modern web browsers:
-
-- Firefox 90+
-- Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+## Access rights 
+To use certain partner APIs, access to the internal area of I14Y is required. Please proceed as follows: 
+- Log in to the internal area of the platform.
+- Click on the user symbol in the upper righ corner and then on “Copy access token”
+- Include this token in your requests to the API. 
