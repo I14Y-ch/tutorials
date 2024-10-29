@@ -9,8 +9,15 @@ In this repository, you will find access to a step-by-step guide Jupyter noteboo
 
 If the currently available interfaces do not meet your needs, please do not hesitate to contact the [I14Y team](mailto:i14y@bfs.admin.ch). Numerous other endpoints are already active internally; however, they are not yet publicly accessible as they may be subject to changes.
 
+## Running the Tutorial
+You can run the tutorial by either:
+
+- Downloading the tutorial: Access the tutorial notebook directly in the [content directory](https://github.com/I14Y-ch/tutorials/tree/main/content).
+- Running it in your browser: Open [JupyterLite directly in your browser](https://i14y-ch.github.io/tutorials/lab/index.html) for a quick and easy setup with no installations required.
+
 ## Access rights 
 To use certain partner APIs, access to the internal area of I14Y is required. Please proceed as follows: 
+
 - Log in to the internal area of the platform.
 - Click on the user symbol in the upper righ corner and then on “Copy access token”
 - Include this token in your requests to the API. 
