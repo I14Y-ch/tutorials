@@ -8,7 +8,7 @@ In this repository, you will find access to a step-by-step guide Jupyter noteboo
 You can run the tutorial by either:
 
 - Downloading the tutorial: Access the tutorial notebook directly in the [content directory](https://github.com/I14Y-ch/tutorials/tree/main/content).
-- Running it in your browser: Open [JupyterLite directly in your browser](https://i14y-ch.github.io/tutorials/lab/index.html) for a quick and easy setup with no installations required.
+- Running it in your browser: Open [JupyterLite directly in your browser](https://i14y-ch.github.io/tutorials/lab/index.html?path=Local+Data+Steward+user_API%27s+documentation_ABN.ipynb) for a quick and easy setup with no installations required.
 
 ## Access rights 
 To use certain partner APIs, access to the internal area of I14Y is required. Please proceed as follows: 
