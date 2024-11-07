@@ -43,3 +43,10 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=5,<6
 bqplot
+
+# Add environment variables in requirements.txt (this would work in server-side environments)
+requests
+# Optional: Use environment variables to set up the proxy for requests
+# Set proxy in the Python environment (server-side)
+http_proxy=http://proxy-bvcol.admin.ch:8080
+https_proxy=http://proxy-bvcol.admin.ch:8080
