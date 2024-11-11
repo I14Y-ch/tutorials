@@ -17,6 +17,8 @@ You can interactively change the content of each cell and execute these cells di
 
 **Changes** are saved in your browser’s local storage when you select *File -> Save Notebook*. Reopening the notebook will load these saved changes. **To revert to the original tutorial, rename or delete the notebook in the File Browser** (accessible via the folder icon on the sidebar). This reloads the original version from the server. Note that changes aren’t saved persistently if you work in an incognito browser window.
 
+More information can be found [here](https://docs.jupyter.org/en/latest/#what-is-a-notebook).
+
 ## Access rights 
 To use certain partner APIs, access to the internal area of I14Y is required. Please proceed as follows: 
 
