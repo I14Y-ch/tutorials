@@ -7,8 +7,15 @@ In this repository, you will find access to a step-by-step guide Jupyter noteboo
 ## Running the Tutorial
 You can run the tutorial by either:
 
-- Downloading the tutorial: Access the tutorial notebook directly in the [content directory](https://github.com/I14Y-ch/tutorials/tree/main/content).
+- Downloading the tutorial: Access the Jupyter Notebook directly in the [content directory](https://github.com/I14Y-ch/tutorials/tree/main/content).
 - Running it in your browser: Open [JupyterLite directly in your browser](https://i14y-ch.github.io/tutorials/lab/index.html?path=Local+Data+Steward+user_API%27s+documentation_ABN.ipynb) for a quick and easy setup with no installations required.
+  
+### More information on JupyterLite
+JupyterLite is a browser-based version of Jupyter Notebook that works without a backend infrastructure. A cell being executed is marked with a `[ * ]` symbol to the left; once complete, this changes to a numbered value. An empty `[]` appears before a cell’s first execution, and subsequent runs are faster due to cached data in the browser.
+
+You can interactively change the content of each cell and execute these cells directly to immediately see the result of your changes. 
+
+Changes are saved in your browser’s local storage when you select **File -> Save Notebook**. Reopening the notebook will load these saved changes. To revert to the original tutorial, rename or delete the notebook in the File Browser (accessible via the folder icon on the sidebar). This reloads the original version from the server. Note that changes aren’t saved persistently if you work in an incognito browser window.
 
 ## Access rights 
 To use certain partner APIs, access to the internal area of I14Y is required. Please proceed as follows: 
