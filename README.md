@@ -1,8 +1,14 @@
 # I14Y API Documentation
 ## Overview
-This repository contains documentation and tutorials for the available electronic interfaces (APIs) offered by the I14Y interoperability platform. Technical documentation is available in the [Swagger I14Y](https://apiconsole.i14y.admin.ch/partner/v1/index.html), where all currently available endpoints are listed. The offering will be gradually expanded.
+This repository provides documentation for the Partner and Public APIs available on the I14Y interoperability platform. The Public APIs allow anonymous users to access data from I14Y without requiring an authentication token. The Partner APIs, designed for use by Local Data Stewards, require an authentication token for access. If you don't have the acess rights, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). To get the authentication token please proceed as follows: 
 
-In this repository, you will find access to a step-by-step guide Jupyter notebook that documents how to utilize the APIs with Python and the [Requests library](https://requests.readthedocs.io/en/latest/user/quickstart/). It demonstrates how to interact with the I14Y production environment, allowing you to test all functionalities without affecting the production environment. The notebook also documents the process of switching from one environment to another. If you do not have access to the production environment, please contact the [I14Y team](mailto:i14y@bfs.admin.ch).
+- Log in to the internal area of the platform.
+- Click on the user symbol in the upper righ corner and then on “Copy access token”
+- Include this token in your requests to the API. 
+
+Technical documentation is available in the [Swagger I14Y (partner)](https://apiconsole.i14y.admin.ch/partner/v1/index.html) and [Swagger I14Y (public)](https://apiconsole.i14y.admin.ch/public/v1/index.html), where all currently available endpoints are listed. The offering will be gradually expanded.
+
+In this repository, you will find access to two step-by-step guide Jupyter notebooks that document how to utilize the Partner and Public APIs using Python and the [Requests library](https://requests.readthedocs.io/en/latest/user/quickstart/). 
 
 ## Running the Tutorial
 You can run the tutorial by either:
@@ -19,9 +25,3 @@ You can interactively change the content of each cell and execute these cells di
 
 More information can be found [here](https://docs.jupyter.org/en/latest/#what-is-a-notebook).
 
-## Access rights 
-To use certain partner APIs, access to the internal area of I14Y is required. Please proceed as follows: 
-
-- Log in to the internal area of the platform.
-- Click on the user symbol in the upper righ corner and then on “Copy access token”
-- Include this token in your requests to the API. 
