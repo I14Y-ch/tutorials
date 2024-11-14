@@ -16,7 +16,7 @@ The Public APIs allow anonymous users to access data from I14Y without requiring
 You can run the tutorial by either:
 
 - Downloading the tutorial: Access the Jupyter Notebook directly in the [content directory](https://github.com/I14Y-ch/tutorials/tree/main/content).
-- Running it in your browser: Open [JupyterLite directly in your browser](https://i14y-ch.github.io/tutorials/lab/index.html?path=Local+Data+Steward+user_API%27s+documentation_ABN.ipynb) for a quick and easy setup with no installations required.
+- Running it in your browser: Open [JupyterLite directly in your browser]() for a quick and easy setup with no installations required.
   
 ### More information on JupyterLite
 JupyterLite is a browser-based version of Jupyter Notebook that works without a backend infrastructure. A cell being executed is marked with a `[ * ]` symbol to the left; once complete, this changes to a numbered value. An empty `[]` appears before a cell’s first execution, and subsequent runs are faster due to cached data in the browser.
