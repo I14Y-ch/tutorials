@@ -2,6 +2,8 @@
 ## Overview
 This repository provides documentation for the Partner and Public APIs available on the I14Y interoperability platform.
 
+Technical documentation is also accessible in the [Swagger I14Y (partner)](https://apiconsole.i14y.admin.ch/partner/v1/index.html) and [Swagger I14Y (public)](https://apiconsole.i14y.admin.ch/public/v1/index.html), where all currently available endpoints are listed. The offering will be gradually expanded.
+
 In this repository, you will find access to two step-by-step guide Jupyter notebooks that document how to utilize the Partner and Public APIs with Python and the [Requests library](https://requests.readthedocs.io/en/latest/user/quickstart/). 
 
 The Public APIs allow anonymous users to access data from I14Y without requiring an authentication token. The Partner APIs, designed for use by Local Data Stewards, require an authentication token for access. If you don't have the acess rights, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). To get the authentication token please proceed as follows: 
