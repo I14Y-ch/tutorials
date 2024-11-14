@@ -1,6 +1,6 @@
 # I14Y API Documentation
 ## Overview
-This repository contains documentation and tutorials for the available electronic interfaces (APIs) offered by the I14Y interoperability platform. Technical documentation is available in the [Swagger I14Y (testing environment - Abnahme)](https://iop-partner-a.app.cfap02.atlantica.admin.ch/api/index.html) and [Swagger I14Y (production environement)](https://iop-partner.app.cfap02.atlantica.admin.ch/api/index.html), where all currently available endpoints are listed. The offering will be gradually expanded.
+This repository contains documentation and tutorials for the available electronic interfaces (APIs) offered by the I14Y interoperability platform. Technical documentation is available in the [Swagger I14Y](https://apiconsole.i14y.admin.ch/partner/v1/index.html), where all currently available endpoints are listed. The offering will be gradually expanded.
 
 In this repository, you will find access to a step-by-step guide Jupyter notebook that documents how to utilize the APIs with Python and the [Requests library](https://requests.readthedocs.io/en/latest/user/quickstart/). It demonstrates how to interact with the I14Y production environment, allowing you to test all functionalities without affecting the production environment. The notebook also documents the process of switching from one environment to another. If you do not have access to the production environment, please contact the [I14Y team](mailto:i14y@bfs.admin.ch).
 
